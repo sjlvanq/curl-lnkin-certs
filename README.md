@@ -6,17 +6,15 @@
 Script bash que extrae todas las certificaciones de un perfil de LinkedIn. Utiliza la API interna de LinkedIn (`/voyager/api/`) junto con cookies de sesión autenticadas para acceder a los datos de certificaciones del usuario especificado.
 
 ### ¿Por qué este script?
-- Zero Frameworks: Sin Selenium, Puppeteer o BeautifulSoup. Solo Bash puro.
-- Sin Coste: Olvida las suscripciones de APIs de scraping o servicios de proxy.
-- Ligero: Ejecución instantánea con herramientas nativas del sistema (curl + jq).
-- Transparente: Sin cajas negras; tú controlas tus cookies y tus datos.
+- Sin Selenium, Puppeteer o BeautifulSoup.
+- Sin Coste: Olvida las suscripciones a APIs de scraping.
+- Ligero: Ejecución instantánea con herramientas estándar (`curl` + `jq`).
+- Transparente: Sin cajas negras.
 
 ## Consideraciones de seguridad
 
 > [!WARNING]
-
-- Las cookies contienen información de sesión sensible. Asegúrate de eliminarlas cuando ya no las necesites.
-- El uso de este script para scraping masivo puede violar los **Términos de Servicio de LinkedIn**, lo que podría resultar en la suspensión o el bloqueo de tu cuenta. Úsalo con moderación.
+> El uso de este script para scraping masivo puede violar los **Términos de Servicio de LinkedIn**, lo que podría resultar en la suspensión o el bloqueo de tu cuenta. Úsalo con moderación.
 
 ## Requisitos
 
@@ -35,6 +33,9 @@ El script está diseñado para ejecutarse en entornos **Unix-like**.
 
 ### Archivo de cookies
 Necesitas un archivo de cookies válidas de LinkedIn en formato Netscape. Recomendamos usar la extensión de navegador [Get cookies.txt LOCALLY](https://github.com/kairi003/Get-cookies.txt-LOCALLY) (disponible para Chrome y Firefox).
+
+> [!WARNING]
+> Las cookies contienen información de sesión sensible. Asegúrate de eliminarlas cuando ya no las necesites.
 
 - Inicia sesión en LinkedIn
 - Exporta las cookies a un archivo `.txt`. 
