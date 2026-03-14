@@ -11,6 +11,12 @@ A Bash script that extracts all certifications from a LinkedIn profile. It lever
 - **Lightweight**: Runs instantly using native system tools (`curl` + `jq`).
 - **Transparent**: No black boxes — you control your cookies and your data.
 
+## Security Considerations
+
+> [!WARNING]
+
+- Cookies contain sensitive session data. Make sure to delete them once you no longer need them.
+- Using this script for bulk scraping may violate **LinkedIn's Terms of Service**, which could result in your account being suspended or permanently banned. Use it responsibly.
 
 ## Requirements
 
@@ -89,14 +95,6 @@ Example structure:
   ...
 ] 
 ```
-
-## Security Considerations
-
-> [!WARNING]
-
-- Cookies contain sensitive session data. Make sure to delete them once you no longer need them.
-- Using this script for bulk scraping may violate **LinkedIn's Terms of Service**, which could result in your account being suspended or permanently banned. Use it responsibly.
-
 
 ## Roadmap
 

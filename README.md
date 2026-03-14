@@ -11,6 +11,12 @@ Script bash que extrae todas las certificaciones de un perfil de LinkedIn. Utili
 - Ligero: Ejecución instantánea con herramientas nativas del sistema (curl + jq).
 - Transparente: Sin cajas negras; tú controlas tus cookies y tus datos.
 
+## Consideraciones de seguridad
+
+> [!WARNING]
+
+- Las cookies contienen información de sesión sensible. Asegúrate de eliminarlas cuando ya no las necesites.
+- El uso de este script para scraping masivo puede violar los **Términos de Servicio de LinkedIn**, lo que podría resultar en la suspensión o el bloqueo de tu cuenta. Úsalo con moderación.
 
 ## Requisitos
 
@@ -89,14 +95,6 @@ Estructura de ejemplo:
   ...
 ] 
 ```
-
-## Consideraciones de seguridad
-
-> [!WARNING]
-
-- Las cookies contienen información de sesión sensible. Asegúrate de eliminarlas cuando ya no las necesites.
-- El uso de este script para scraping masivo puede violar los **Términos de Servicio de LinkedIn**, lo que podría resultar en la suspensión o el bloqueo de tu cuenta. Úsalo con moderación.
-
 
 ## Mejoras futuras
 
